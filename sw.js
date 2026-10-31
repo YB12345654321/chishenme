@@ -1,12 +1,13 @@
 // 离线缓存：第一次打开后，断网也能用
-const VERSION = "chishenme-v1";
+const VERSION = "chishenme-v3";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
-  "./apple-touch-icon.png"
+  "./apple-touch-icon.png",
+  "./icon-maskable-512.png"
 ];
 
 self.addEventListener("install", event => {

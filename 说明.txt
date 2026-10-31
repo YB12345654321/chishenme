@@ -1,0 +1,11 @@
+今天吃什么：独立网页版
+
+文件说明
+index.html               主页面（菜谱和功能都在里面）
+manifest.webmanifest     让手机把它当成 App（桌面图标、全屏打开）
+sw.js                    离线缓存，第一次打开后断网也能用
+icon-192.png / icon-512.png / icon-maskable-512.png / apple-touch-icon.png   桌面图标
+
+这 7 个文件要放在同一个文件夹里，一起上传到 GitHub Pages。
+上传后用手机浏览器打开网址，再“添加到主屏幕”。
+iPhone 请用 Safari，安卓请用 Chrome，不要在微信里打开。
